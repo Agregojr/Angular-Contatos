@@ -34,7 +34,6 @@ export class UpdateComponent implements OnInit{
       this.contato.telefone = res.telefone;
       this.contato.email = res.email;
       this.contato.empresa = res.empresa;
-      
     })
     this.router.navigate(['/list']);
   }
