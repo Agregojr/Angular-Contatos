@@ -1,0 +1,40 @@
+#lista-contatos {
+    background-color: #505454;
+    border-radius: 15px;
+}
+
+h2 {
+    color: rgb(63, 216, 214);
+    margin-top: 20px;
+}
+
+#contatos {
+    color: rgb(105, 250, 247);
+    
+}
+#contatos>a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+#a  {
+    border-radius: 15px;
+    border-color: #f7fdfd;
+    color:rgb(248, 8, 8);
+    background-color: #505454;
+    margin-left: 480px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#b  {
+    border-radius: 15px;
+    border-color: #f7fdfd;
+    color:rgb(244, 244, 9);
+    background-color: #505454;
+    margin-left:0px;
+    margin-top: 5px;
+    margin-bottom: 10px;   
+}
+button>a {
+    color:rgb(244, 244, 9);    
+}

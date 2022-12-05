@@ -1,0 +1,23 @@
+<div class="aula">
+    <h2>Atualizar</h2>
+    <form (ngSubmit)="updateContatos()">
+        <div class="form-group">
+            <label id="name-label" for="name">Nome</label>
+            <input type="text" [(ngModel)]='contato.nome' name="nome" placeholder="Digite o nome do contato">
+        </div>
+        <div class="form-group" >
+            <label id="name-label" for="name">Telefone</label>
+            <input type="text" [(ngModel)]='contato.telefone' name="telefone" placeholder="Digite o telefone do contato" >
+        </div>
+        <div class="form-group" >
+            <label id="name-label" for="name">E-mail</label>
+            <input type="text" [(ngModel)]='contato.email' name="email"  placeholder="Digite o e-mail do contato">
+        </div>
+        <div class="form-group">
+            <label id="name-label" for="name">Empresa</label>
+            <input type="text" [(ngModel)]='contato.empresa' name="empresa"  placeholder="Digite o nome da empresa do contato">
+        </div>
+        <input id="input-enviar" type="submit" value="Confirmar enviar">
+    </form>
+    
+</div>

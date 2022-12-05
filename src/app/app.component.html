@@ -1,0 +1,32 @@
+<nav id="navbar" class="nav">
+    <ul class="nav-list">
+        <li><a routerLink="/">Página Inicial</a></li>
+        <li><a routerLink="/list">Lista dos contatos</a></li>
+        <li><a routerLink="/two-way-biding">Incluir Novo Contato</a></li>
+        <li><a routerLink="/updateContatos">Atualizar meus Contatos</a></li>
+    </ul>
+
+
+</nav>
+<section id="welcome-section" class="welcome-section">
+    <form id="survey-form">
+        <h1>Meus Contatos</h1>
+        <nav>
+            <ul id="form-ul">
+                <li><a routerLink="/list">Lista dos Contatos</a></li>
+                <li><a routerLink="/two-way-biding">Incluir Novo Contato</a></li>
+            </ul>
+        </nav>
+        <div>
+            <router-outlet></router-outlet>
+        </div>
+    </form>
+</section>
+<footer>
+    <p>
+        &copy; Desenvolvido by
+        <a>
+            <a href="https://github.com/Agregojr" target="_blank">Agregojr</a>
+        </a>
+    </p>
+</footer>
