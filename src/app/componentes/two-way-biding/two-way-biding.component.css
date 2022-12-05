@@ -22,7 +22,6 @@ form {
     display: block;
     margin-top: 0em;
     background: #267973;
-    margin-top: 55px;
     height: 475px;
 }
 
@@ -68,3 +67,9 @@ h4 {
 #name-label {
     color: white;
 }
+
+h2 {
+    color: rgb(77, 236, 207);
+    margin-top: 20px;
+}
+

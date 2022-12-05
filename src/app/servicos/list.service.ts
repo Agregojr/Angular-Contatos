@@ -1,16 +1,20 @@
 import { Injectable } from '@angular/core';
 import { Animal } from '../Animal';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { catchError, Observable } from 'rxjs';
 import { Contato } from '../Contato';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ListService {
-private apiUrl = 'http://localhost:3000/contatos';
-private apiUrlContatos = 'http://localhost:3000/contatos';
-
+  private apiUrl = 'http://localhost:3000/contatos';
+  private apiUrlContatos = 'http://localhost:3000/contatos';
+  httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json'
+    })
+  }
   constructor(private http: HttpClient) { }
 
   getAll():Observable<Animal[]> {

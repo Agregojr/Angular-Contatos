@@ -1,20 +1,6 @@
 {
   "contatos": [
     {
-      "id": 1,
-      "nome": "Ana",
-      "telefone": "20201010",
-      "email": "ana@abc.com",
-      "empresa": "ABC"
-    },
-    {
-      "id": 2,
-      "nome": "Jose Marcos",
-      "telefone": "20202020",
-      "email": "jmarcos@abc.com",
-      "empresa": "ABC"
-    },
-    {
       "id": 3,
       "nome": "Flavio",
       "telefone": "30301010",
@@ -34,6 +20,13 @@
       "telefone": "40401010",
       "email": "paulo@nova.com",
       "empresa": "NOVA"
+    },
+    {
+      "id": 6,
+      "nome": "Amaury Grego",
+      "telefone": "31975264295",
+      "email": "Amaury@gmail.com",
+      "empresa": "Amaury Empresa"
     }
   ]
 }

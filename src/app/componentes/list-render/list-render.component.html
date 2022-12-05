@@ -4,8 +4,7 @@
         <li id="contatos" *ngFor="let contato of contatos">
             Nome: <a routerLink="/list/{{contato.id}}">{{contato.nome}}<br></a> Telefone: {{contato.telefone}} - Email: {{contato.email}} - Empresa: {{contato.empresa}}<br>
             <button id="a" (click)="removeAnimal(contato)">Excluir</button>
-            <button id="b" type="button" [routerLink]="['/updateContatos/', contato.id]">Update</button>
+            <button id="b" type="button" [routerLink]="['/updateContatos/', contato.id]">Atualizar</button>
         </li>
     </ul>
-
 </div>
